@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/RegionCap.unity
+    path: Assets/Scenes/1.SelectARMode.unity
     guid: e9b254ace46001745932379b51dae6e1
   m_configObjects: {}
