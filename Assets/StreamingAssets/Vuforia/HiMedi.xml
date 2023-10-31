@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Mandala_1" size="1.000000 1.000000" />
+    <ImageTarget name="Mandala_2" size="1.000000 1.000000" />
+    <ImageTarget name="Mandala_3" size="1.000000 1.000000" />
+    <ImageTarget name="candle" size="1.000000 1.000000" />
+    <ImageTarget name="123" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>
