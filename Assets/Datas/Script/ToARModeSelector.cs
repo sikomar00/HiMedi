@@ -5,6 +5,6 @@ public class ToARModeSelector : MonoBehaviour
 {
     public void LoadARModeScene()
     {
-        SceneManager.LoadScene("1.SelectARMode"); // "ARModeScene"Àº ½ÇÁ¦·Î »ç¿ëÇÏ·Á´Â ¾ÀÀÇ ÀÌ¸§À¸·Î º¯°æÇØ¾ß ÇÕ´Ï´Ù.
+        SceneManager.LoadScene("1.SelectARMode"); // "ARModeScene"ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ø¾ï¿½ ï¿½Õ´Ï´ï¿½.
     }
 }

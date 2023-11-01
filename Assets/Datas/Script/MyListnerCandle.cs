@@ -14,12 +14,10 @@ public class MyListnerCandle : MonoBehaviour
 
     int count;
 
-    public Sprite[] imageSprite;
+    public GameObject Plane;
+    public Texture[] image;
 
-    public Image firstImage;
-    public Image secondImage;
-    public Image thirdImage;
-
+    
     public TMP_Text text;
 
     public bool breath;
@@ -32,26 +30,11 @@ public class MyListnerCandle : MonoBehaviour
         currentState = 0;
         currentTime = 0;
         prevState = 0;
-
-        firstImage.enabled = false;
-        secondImage.enabled = false;
-        thirdImage.enabled = true;
+        count = 0;
+        // firstImage.enabled = false;
+        // secondImage.enabled = false;
         breath = false;
-    }
-
-    public void ThridImageOn()
-    {
-        thirdImage.enabled = true;
-    }
-
-    public void secondImageOn()
-    {
-        secondImage.enabled = true;
-    }
-
-    public void FirstImageOn()
-    {
-        firstImage.enabled = true;
+        Plane.GetComponent<MeshRenderer>().material.mainTexture = image[0];
     }
 
     // Update is called once per frame
@@ -74,49 +57,20 @@ public class MyListnerCandle : MonoBehaviour
         //     print("diff");
         // }
             print("count" + count);
-        if (count < 10 && breath == false)
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            count++;
+        }
+        if (count < 11 && breath == false)
         {
             //print("count" + count);
-            if (count == 1)
-            {
-                ThridImageOn();
-            }
-            thirdImage.sprite = imageSprite[count];
+            Plane.GetComponent<MeshRenderer>().material.mainTexture = image[count];
+            
         }
-        else if (count < 100 && breath == false)
+
+        if (count >= 11)
         {
-            if (count == 10)
-            {
-                secondImageOn();
-            }
-            int tenNumber = count / 10;
-            int oneNumber = count - (tenNumber * 10);
-
-            secondImage.sprite = imageSprite[tenNumber];
-            thirdImage.sprite = imageSprite[oneNumber];
-            //print(tenNumber + oneNumber);
-            //print(tenNumber);
-            //print(oneNumber);
-        }
-        else if (count < 1000 && breath == false)
-        {
-            if (count == 100)
-            {
-                FirstImageOn();
-            }
-
-            int hundredNumber = count / 100;
-            int tenNumber = (count - (hundredNumber * 100)) / 10;
-            int oneNumber = ((count - (hundredNumber * 100)) - tenNumber * 10);
-
-            firstImage.sprite = imageSprite[hundredNumber];
-            secondImage.sprite = imageSprite[tenNumber];
-            thirdImage.sprite = imageSprite[oneNumber];
-
-            //print(hundredNumber + tenNumber + oneNumber);
-            //print(hundredNumber);
-            //print(tenNumber);
-            //print(oneNumber);
+            count = 1;
         }
     }
 
