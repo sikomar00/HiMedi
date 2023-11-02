@@ -7,15 +7,16 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CandleFlameBillboard_Yellow
-  m_Shader: {fileID: 4800000, guid: 0bbad0ce9e26ebc4cb3760db436b3926, type: 3}
+  m_Name: Blur
+  m_Shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - ALWAYS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -39,24 +40,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FlameTexture:
-        m_Texture: {fileID: 2800000, guid: 74461c9fed875ff4da81779ced37c491, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FlameTexturewobble:
-        m_Texture: {fileID: 2800000, guid: 74461c9fed875ff4da81779ced37c491, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Noise:
-        m_Texture: {fileID: 2800000, guid: 25e85efab831df14288665af17b3e78f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -67,49 +56,40 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: 90230aa155d149341b7240e835f4cece, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _texcoord:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BaseBrightnessBoost: 1
-    - _BrightnessMultiplier: 3.56
+    - _BlendOp: 0
     - _BumpScale: 1
-    - _CoreBrightnessBoost: 1
-    - _CoreBrightnessMultiplier: 1.31
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
     - _DstBlend: 0
-    - _FakeGlow: 0.57
-    - _FakeGlowMultiplier: 0.5
-    - _FlameFlickerSpeed: 0.28
+    - _EmissionEnabled: 0
+    - _FlipbookMode: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _LightingEnabled: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NoiseScale: 0.06
     - _OcclusionStrength: 1
-    - _Opacity: 1
-    - _OuterBrightnessBoost: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _WindSpeed: 0.19
-    - _WindStrength: 1
     - _ZWrite: 1
-    - __dirty: 0
     m_Colors:
-    - _BaseColour: {r: 0.61310554, g: 0.6152667, b: 0.9264706, a: 0}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _CoreColour: {r: 0.8603911, g: 0.9191176, b: 0.31087804, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GlowColour: {r: 0.9632353, g: 0.3477806, b: 0.070826136, a: 0}
-    - _OuterColour: {r: 0.5808823, g: 0.3087042, b: 0.01708479, a: 0}
-    - _UnderlyingColour: {r: 0.88235295, g: 0.38229325, b: 0.05839101, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}

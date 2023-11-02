@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: CandleFlameBillboard_Red
   m_Shader: {fileID: 4800000, guid: 0bbad0ce9e26ebc4cb3760db436b3926, type: 3}
   m_ShaderKeywords: 
@@ -101,13 +102,13 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _WindSpeed: 0.19
-    - _WindStrength: 1
+    - _WindStrength: 0.28
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _BaseColour: {r: 0.9044118, g: 0.5398036, b: 0.4056553, a: 0}
+    - _BaseColour: {r: 1, g: 1, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _CoreColour: {r: 0.9191176, g: 0.68258, b: 0.7266249, a: 0}
+    - _CoreColour: {r: 0.9191176, g: 0.76862746, b: 0.6666667, a: 0.8352941}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlowColour: {r: 0.9632353, g: 0.3477806, b: 0.070826136, a: 0}
     - _OuterColour: {r: 0.9632353, g: 0.070826136, b: 0.070826136, a: 0}
