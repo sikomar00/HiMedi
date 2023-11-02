@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
 
 public class MyListener : MonoBehaviour
 {
@@ -27,7 +26,7 @@ public class MyListener : MonoBehaviour
     //Receive Data and Test Sensor
     void OnMessageArrived(string msg)
     {
-        //µé¼û¿¡ Ä¿Áö°í, ³¯¼û¿¡ ÀÛ¾ÆÁöµµ·Ï
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ Ä¿ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         Debug.Log("moving at speed: " + msg);
         float speed = float.Parse(msg);
 
