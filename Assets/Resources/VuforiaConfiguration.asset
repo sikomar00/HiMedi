@@ -22,7 +22,7 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     version: 8.5.9
-    eulaAcceptedVersions: '{"Values":["10.17","10.18","8.5","8.3"]}'
+    eulaAcceptedVersions: '{"Values":["10.17","10.18","8.5","8.3","9.8"]}'
   database:
     disableModelExtraction: 0
   videoBackground:
@@ -31,9 +31,9 @@ MonoBehaviour:
       type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
-    arcoreRequirement: 1
+    autoInitTracker: 1
+    autoStartTracker: 1
+    arcoreRequirement: 0
     autoImportArcore: 0
   smartTerrain:
     autoInitTracker: 0
