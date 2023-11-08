@@ -4,16 +4,56 @@ using TMPro;
 
 public class NameInputPanel : MonoBehaviour
 {
-    public TMP_InputField nameInputField;
+    public InputField nameInputField;
     public GameObject namePanel;
     public TMP_Text titleNameText;
     public GameObject warningText;
 
+    public GameObject editNamePanel;
+    public InputField editNameInputField;
+
     void Start()
     {
-        // warningText 필요한 경우 초기화
+        // 경고 텍스트와 수정 패널을 초기화합니다.
         warningText.SetActive(false);
+        editNamePanel.SetActive(false);
+
+        // 이전에 저장된 이름을 Placeholder로 설정합니다.
+        Text placeholderText = editNameInputField.placeholder as Text;
+        if (placeholderText != null)
+        {
+            string storedName = PlayerPrefs.GetString("PlayerName", "");
+            if (!string.IsNullOrEmpty(storedName))
+            {
+                placeholderText.text = storedName;
+            }
+        }
+
+        // 이름 입력 필드 변경 이벤트 리스너를 추가합니다.
+        nameInputField.onValueChanged.AddListener(delegate { HideWarningText(); });
+        editNameInputField.onValueChanged.AddListener(delegate { HideWarningText(); });
     }
+    //{
+    //    // 이전에 저장된 이름을 불러와서 표시
+    //    string storedName = PlayerPrefs.GetString("PlayerName", "");
+    //    if (!string.IsNullOrEmpty(storedName))
+    //    {
+    //        nameInputField.text = storedName;
+    //        string firstName = storedName.Substring(1);
+    //        string honorific = DetermineHonorific(firstName);
+    //        titleNameText.text = firstName + honorific + ", 반가워!";
+    //    }
+
+    //    // 경고 텍스트 초기화
+    //    warningText.SetActive(false);
+
+    //    // 수정 패널 초기화
+    //    editNamePanel.SetActive(false);
+
+    //    // 이름 입력 필드 변경 이벤트 리스너 추가
+    //    nameInputField.onValueChanged.AddListener(delegate { HideWarningText(); });
+    //    editNameInputField.onValueChanged.AddListener(delegate { HideWarningText(); });
+    //}
 
     public void OnSubmitButtonClicked()
     {
@@ -42,6 +82,15 @@ public class NameInputPanel : MonoBehaviour
         }
     }
 
+    // 이름 입력 필드가 변경될 때 호출될 메서드입니다.
+    private void HideWarningText()
+    {
+        if (warningText.activeSelf)
+        {
+            warningText.SetActive(false);
+        }
+    }
+
     // 이름에 맞는 호칭 조사를 결정하는 함수
     private string DetermineHonorific(string name)
     {
@@ -54,5 +103,49 @@ public class NameInputPanel : MonoBehaviour
 
         // 받침이 있는 경우 '아', 없는 경우 '야'를 반환합니다
         return (finalConsonant > 0) ? "아" : "야";
+    }
+
+    public void OnEditNameButtonClicked()
+    {
+        // 수정 패널을 활성화
+        editNamePanel.SetActive(true);
+
+        // 저장된 이름을 editNameInputField의 Placeholder로 표시
+        string storedName = PlayerPrefs.GetString("PlayerName", "");
+        Text placeholderText = editNameInputField.placeholder as Text; // Legacy UI 사용 시
+        // TMP_Text placeholderText = editNameInputField.placeholder as TMP_Text; // TextMeshPro 사용 시
+        placeholderText.text = storedName; // Placeholder에 저장된 이름을 설정
+
+        // editNameInputField의 text를 비워 사용자 입력을 받을 준비
+        editNameInputField.text = "";
+    }
+
+    // 이름 저장 버튼을 눌렀을 때 호출되는 메서드
+    public void OnSaveEditedNameButtonClicked()
+    {
+        string newName = editNameInputField.text;
+        if (!string.IsNullOrEmpty(newName) && newName.Length >= 2)
+        {
+            // 새 이름을 저장
+            PlayerPrefs.SetString("PlayerName", newName);
+            string firstName = newName.Substring(1);
+            string honorific = DetermineHonorific(firstName);
+            titleNameText.text = firstName + honorific + ", 반가워!";
+
+            // 수정 패널을 비활성화
+            editNamePanel.SetActive(false);
+        }
+        else
+        {
+            // 적절하지 않은 이름에 대한 경고 표시
+            warningText.SetActive(true);
+        }
+    }
+
+    // 이름 수정 취소 버튼을 눌렀을 때 호출되는 메서드
+    public void OnCancelEditButtonClicked()
+    {
+        // 수정 패널을 비활성화
+        editNamePanel.SetActive(false);
     }
 }
