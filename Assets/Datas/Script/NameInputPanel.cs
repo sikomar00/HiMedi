@@ -6,7 +6,7 @@ public class NameInputPanel : MonoBehaviour
 {
     public InputField nameInputField;
     public GameObject namePanel;
-    public TMP_Text titleNameText;
+    public GameObject titleNameText;
     public GameObject warningText;
 
     public GameObject editNamePanel;
@@ -33,27 +33,7 @@ public class NameInputPanel : MonoBehaviour
         nameInputField.onValueChanged.AddListener(delegate { HideWarningText(); });
         editNameInputField.onValueChanged.AddListener(delegate { HideWarningText(); });
     }
-    //{
-    //    // 이전에 저장된 이름을 불러와서 표시
-    //    string storedName = PlayerPrefs.GetString("PlayerName", "");
-    //    if (!string.IsNullOrEmpty(storedName))
-    //    {
-    //        nameInputField.text = storedName;
-    //        string firstName = storedName.Substring(1);
-    //        string honorific = DetermineHonorific(firstName);
-    //        titleNameText.text = firstName + honorific + ", 반가워!";
-    //    }
 
-    //    // 경고 텍스트 초기화
-    //    warningText.SetActive(false);
-
-    //    // 수정 패널 초기화
-    //    editNamePanel.SetActive(false);
-
-    //    // 이름 입력 필드 변경 이벤트 리스너 추가
-    //    nameInputField.onValueChanged.AddListener(delegate { HideWarningText(); });
-    //    editNameInputField.onValueChanged.AddListener(delegate { HideWarningText(); });
-    //}
 
     public void OnSubmitButtonClicked()
     {
@@ -75,7 +55,7 @@ public class NameInputPanel : MonoBehaviour
             string honorific = DetermineHonorific(firstName);
 
             // 성을 제외한 이름과 호칭 조사를 사용하여 환영 메시지를 구성합니다.
-            titleNameText.text = firstName + honorific + ", 반가워!";
+            titleNameText.GetComponent<Text>().text = firstName + honorific + ", 반가워!";
 
             // 패널 비활성화
             namePanel.SetActive(false);
@@ -130,7 +110,7 @@ public class NameInputPanel : MonoBehaviour
             PlayerPrefs.SetString("PlayerName", newName);
             string firstName = newName.Substring(1);
             string honorific = DetermineHonorific(firstName);
-            titleNameText.text = firstName + honorific + ", 반가워!";
+            titleNameText.GetComponent<Text>().text = firstName + honorific + ", 반가워!";
 
             // 수정 패널을 비활성화
             editNamePanel.SetActive(false);

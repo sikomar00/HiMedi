@@ -3,12 +3,18 @@ using UnityEngine;
 
 public class ImageCycle : MonoBehaviour
 {
+    public static ImageCycle instance;
     public GameObject Plane;
     public Texture[] image;
     public float imageChangeInterval = 4f;
 
-    private int currentIndex = 0;
-    private bool cycleStarted = false;
+    public int currentIndex = 0;
+    public bool cycleStarted = false;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -22,12 +28,18 @@ public class ImageCycle : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !cycleStarted)
+        //cyclingImage();
+    }
+    public void cyclingImage()
+    {
+        if (cycleStarted == false)
         {
+            Debug.Log("SpaceBar");
             cycleStarted = true;
             StartCoroutine(ChangeImageCoroutine());
         }
     }
+
 
     IEnumerator ChangeImageCoroutine()
     {
@@ -47,5 +59,15 @@ public class ImageCycle : MonoBehaviour
             return;
         }
         Plane.GetComponent<MeshRenderer>().material.mainTexture = image[currentIndex];
+    }
+
+    public void ResetCount()
+    {
+        currentIndex = 0;
+    }
+
+    public void ResetBool()
+    {
+        cycleStarted = false;
     }
 }
