@@ -18,15 +18,33 @@ public class NameInputPanel : MonoBehaviour
         warningText.SetActive(false);
         editNamePanel.SetActive(false);
 
+        // 이전에 저장된 이름이 있으면 이름 입력 패널을 비활성화합니다.
+        string storedName = PlayerPrefs.GetString("PlayerName", "");
+        if (!string.IsNullOrEmpty(storedName))
+        {
+            // 저장된 이름이 있으므로 이름 입력 패널을 비활성화합니다.
+            namePanel.SetActive(false);
+
+            // 환영 메시지 업데이트 (사용자가 앱을 다시 시작했을 때를 위해)
+            string firstName = storedName.Substring(1); // 성(姓)을 제외한 이름 부분을 추출합니다.
+            string honorific = DetermineHonorific(firstName); // 호칭 조사 결정
+            titleNameText.GetComponent<Text>().text = firstName + honorific + ", 반가워!";
+        }
+        else
+        {
+            // 저장된 이름이 없으므로 이름 입력 패널을 활성화합니다.
+            namePanel.SetActive(true);
+        }
+
         // 이전에 저장된 이름을 Placeholder로 설정합니다.
         Text placeholderText = editNameInputField.placeholder as Text;
         if (placeholderText != null)
         {
-            string storedName = PlayerPrefs.GetString("PlayerName", "");
-            if (!string.IsNullOrEmpty(storedName))
-            {
+            //string storedName = PlayerPrefs.GetString("PlayerName", "");
+            //if (!string.IsNullOrEmpty(storedName))
+            //{
                 placeholderText.text = storedName;
-            }
+            //}
         }
 
         // 이름 입력 필드 변경 이벤트 리스너를 추가합니다.
@@ -127,5 +145,20 @@ public class NameInputPanel : MonoBehaviour
     {
         // 수정 패널을 비활성화
         editNamePanel.SetActive(false);
+    }
+
+    public void OnRemoveNameButtonClicked()
+    {
+        // PlayerPrefs에서 이름 정보 제거
+        PlayerPrefs.DeleteKey("PlayerName");
+
+        // 필요한 경우, UI 컴포넌트도 리셋할 수 있습니다.
+        nameInputField.text = ""; // 이름 입력 필드를 비웁니다.
+
+        // 만약 이름을 표시하는 UI 컴포넌트가 있다면 기본 텍스트로 리셋합니다.
+        titleNameText.GetComponent<Text>().text = "당신의 이름은?";
+
+        // 이름 입력 패널을 다시 활성화하려면 주석 해제합니다.
+        // namePanel.SetActive(true);
     }
 }

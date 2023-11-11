@@ -36,4 +36,10 @@ public class TimeGet : MonoBehaviour
         TimeSet.instance.time = time;
     }
 
+    public void TenSecs()
+    {
+        time = 10f;
+        TimeSet.instance.time = time;
+    }
+
 }
