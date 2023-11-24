@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: a3f6336c506d3944c98b9110c20ec633
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 262, y: 0, z: 0, w: 680}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wii - Mario & Sonic at the Olympic Winter Games - File Selection_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 39
+        width: 49
+        height: 58
+      alignment: 9
+      pivot: {x: 0.50594574, y: 0.40763196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a0a17650c0e444092b63bff05810d4
+      internalID: 101608199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mario & Sonic at the Olympic Winter Games - File Selection_0
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 39
+        width: 49
+        height: 58
+      alignment: 9
+      pivot: {x: 0.50594574, y: 0.40763196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0628ebcd26e4594b998cc73dbf95390
+      internalID: 1478916169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mario & Sonic at the Olympic Winter Games - File Selection_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 332
+        width: 179
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5c5da8bbe84c1498c819000d66a9e7
+      internalID: 96760847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mario & Sonic at the Olympic Winter Games - File Selection_3
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 291
+        width: 172
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a559b47948179e14f807b651284498cb
+      internalID: -983549089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mario & Sonic at the Olympic Winter Games - File Selection_4
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 251
+        width: 172
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cae8957758a35a48bacabecee2283a6
+      internalID: -125175647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mario & Sonic at the Olympic Winter Games - File Selection_5
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 215
+        width: 155
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e670ed5a679e544bd3bb493ae31cb3
+      internalID: 1155362778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mario & Sonic at the Olympic Winter Games - File Selection_6
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 388
+        width: 181
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a6cf1acaccc9f47848d54ae1b6d22c
+      internalID: -514815036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2P
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 249
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1092762bb0b2ad46bc0ce26659a78ac
+      internalID: -2012288587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1P
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 272
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fa72b537c219b4fa52958f9c611700
+      internalID: -481457765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3P
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 224
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3fcafa76bf0db408bf35c6b683eb06
+      internalID: -1410862658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4P
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 200
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c32db7022f31e458a494f9af4d36db
+      internalID: 1691681508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COM
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 176
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795b5b8f923afba4c9ad161c13b6cf74
+      internalID: 1972123647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -303.5, y: -353.5}
+      - {x: -303.5, y: -290.5}
+      - {x: -253.5, y: -290.5}
+      - {x: -253.5, y: -353.5}
+    - - {x: -233.5, y: -298.5}
+      - {x: -233.5, y: -294.5}
+      - {x: -229.5, y: -294.5}
+      - {x: -229.5, y: -298.5}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      1P: -481457765
+      2P: -2012288587
+      3P: -1410862658
+      4P: 1691681508
+      COM: 1972123647
+      Wii - Mario & Sonic at the Olympic Winter Games - File Selection_0: 1478916169
+      Wii - Mario & Sonic at the Olympic Winter Games - File Selection_1: 101608199
+      Wii - Mario & Sonic at the Olympic Winter Games - File Selection_2: 96760847
+      Wii - Mario & Sonic at the Olympic Winter Games - File Selection_3: -983549089
+      Wii - Mario & Sonic at the Olympic Winter Games - File Selection_4: -125175647
+      Wii - Mario & Sonic at the Olympic Winter Games - File Selection_5: 1155362778
+      Wii - Mario & Sonic at the Olympic Winter Games - File Selection_6: -514815036
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

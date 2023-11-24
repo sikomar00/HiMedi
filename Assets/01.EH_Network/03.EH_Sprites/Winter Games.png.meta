@@ -1,0 +1,1697 @@
+fileFormatVersion: 2
+guid: cd45b8956fd60c04e848d04f7944464b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Winter Games_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 273
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e7b84654d84e946b35fb486a0af316
+      internalID: 1157366022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 408
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916bec33611b6364d95e889faaa36dc9
+      internalID: 644471304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 547
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d52c5039decac34ebd5024842f60bf2
+      internalID: -799093115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 409
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b12201f7eb39549a728c0d21f3afca
+      internalID: -2013858081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_2
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 136
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66816489ff394514aa14fb5fa15c9b1f
+      internalID: -1635349807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 274
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a528bcd89fd8ada47913e148f37aa675
+      internalID: 907163153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260c48c7c49cb3d4a832a5500194e4e7
+      internalID: -1105135820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_13
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 546
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2522b16e613ea040994fc24349cd168
+      internalID: -395436129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_7
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 138
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e784c29730b21cf46b60a5166fc56979
+      internalID: -997824163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1529b4946ef4cb409c7c6c6e6d8ade9
+      internalID: -1724785587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 275
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0373a60efcd4549982cb90f3c7073d
+      internalID: -993317030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinterGameBG_0
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 513
+        width: 157
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dceeb6702701bc419f1999500ef2b83
+      internalID: -781921067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinterGameBG_1
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 362
+        width: 145
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3d65c7d0cf3af49b6dd4dc4e8f65fb
+      internalID: -1155346369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinterGameBG_2
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 315
+        width: 130
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc7212df3b13674e9e38b4053a05a29
+      internalID: -39963508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinterGameBG_3
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 271
+        width: 129
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fe73a7744ad0b489baeb54add2bf4a
+      internalID: -1334164978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinterGameBG_4
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 169
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1666b80824c658548becd2ecdddebd70
+      internalID: 1846017730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinterGameBG_5
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 170
+        width: 63
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c80db62a3d47e54dabd9b7cfb65baa5
+      internalID: -719839429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olympics_0
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 350
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2974cb90c4e3cb64e97d07aaec56eb30
+      internalID: -2119315842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olympics_1
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 264
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446ce699634bb874cbd3fdb9224f32e4
+      internalID: -750559092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olympics_2
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 233
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb49b859e5255564bacee749b468d6a8
+      internalID: 541799772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olympics_3
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 152
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562c4a01239cb5e4d8b45cfd1942768a
+      internalID: 353489571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo1
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 294
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8e501be45bba44095bdd1bca7fd47f
+      internalID: -1823023314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 341
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a883c7d76335574dadc317fb8f17dbf
+      internalID: -2019349005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Snowboard Cross Title
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1444
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509ca84233e5f294fa9902487691e8d7
+      internalID: 676704838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Ski Cross Title
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1510
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c37712a328c68148b90fc01f9865cbf
+      internalID: 817225132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Ski Jump Title
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1573
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1953b306d23e6464aa30fd6939bbc8d7
+      internalID: -1310606271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Alpine Ski Title
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1638
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1acc291a5cd6242a7cea137b099dae
+      internalID: 1324531338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Short-track Title
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1382
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb85082bc69399d4ea7794967d091dbc
+      internalID: -978074581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Fgure Skate Title
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1320
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad106f05b681544fb51cd9ab227ac5a
+      internalID: 1817164541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Hang Glider Title
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1382
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4555030a716726b4f8910485be4f59d8
+      internalID: -650241485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Snowball Fight Title
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1444
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc067ee41b032c4cafcd0386645e7d6
+      internalID: 319684324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_19
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1510
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edbbb4d73b2c014fbeb1bc872717fd4
+      internalID: -152267740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Ice Hockey Title
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1573
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704563cfdcdbe4343bd2b6be0630bf63
+      internalID: -340667607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Bobsleigh Title
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1638
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e904ad76cc9874ab0fe7b641c9dd2e
+      internalID: 1232759188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Curling Title
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1510
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2a17be2e3438940a906b1ec116ed2e
+      internalID: 1302339560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_0
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 409
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e37311ff1338b40abffa89d78400fb
+      internalID: 1706767485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_3
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 341
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd828fdaf848d804190d2e58b356b7fe
+      internalID: 757827318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_11
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 416
+        width: 242
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e843f9255618dc4db73d53a8f691fe8
+      internalID: -1407393218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_14
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 705
+        width: 100
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3828488c2a6c64b41bee1b624589a136
+      internalID: 1506716516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_15
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 682
+        width: 122
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4827808755a6eea4cbecf774fc2958c5
+      internalID: 1608825170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_16
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 488
+        width: 85
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05aceceb2ec795b4b88c88428d151dbe
+      internalID: -736943723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_17
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 926
+        width: 134
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01353472e54f03a44b4868a4f9068495
+      internalID: 1408236549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_18
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 52
+        width: 393
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d67ae86fb2d1624aade884e67781776
+      internalID: 1725514563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_20
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 130
+        width: 217
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3efd0f5124c31d4f994c484513ee0fd
+      internalID: 1552693579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_21
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 109
+        width: 225
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdebc93b1c485fb4fb01008843b4b6e0
+      internalID: -1375295855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_22
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 52
+        width: 225
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a1dd5f8d6f85643b433d7e3be97525
+      internalID: 694309790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_23
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 316
+        width: 119
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2b4d8e528118f4b93aa0244959a27b
+      internalID: 698281050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_24
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 322
+        width: 107
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb52dc7d2017d044bb7d5e446ef78dfb
+      internalID: -643017905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_25
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 322
+        width: 107
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e28e7448c73b004fb3e4fcee2359a49
+      internalID: -1085043806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_26
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 475
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160702df2c3cbb94984d485e9b3d7c09
+      internalID: -1853502117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_27
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 471
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2449ba6f344063549bd0b5fcf2aabefa
+      internalID: -1843980445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_28
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 489
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e71f764ee1a02b458071463c5e3e8a4
+      internalID: -1540541288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_29
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 683
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b35d32d32f4da4ab23012b40d4cb35
+      internalID: -1707669349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_30
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 683
+        width: 97
+        height: 46
+      alignment: 9
+      pivot: {x: 1.9602568, y: 0.43572998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a6f75b3658a5a48ad45dee97a701b9
+      internalID: 1477737273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_31
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 731
+        width: 101
+        height: 46
+      alignment: 9
+      pivot: {x: 1.9602568, y: 0.43572998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d8e623bd5c99a46be087614b513ae9
+      internalID: 2118369279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_32
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 782
+        width: 96
+        height: 46
+      alignment: 9
+      pivot: {x: 1.9602568, y: 0.43572998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f884d04bc38b45d4f89ca73076d97419
+      internalID: -1647340885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_33
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 830
+        width: 139
+        height: 52
+      alignment: 9
+      pivot: {x: 1.9602568, y: 0.43572998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e50b59d01eb4f245998f18d4888a68f
+      internalID: -57566302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_34
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 830
+        width: 121
+        height: 52
+      alignment: 9
+      pivot: {x: 1.9602568, y: 0.43572998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c7a142ca9778444a50b2037530c0a2
+      internalID: 637275098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_35
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 782
+        width: 139
+        height: 47
+      alignment: 9
+      pivot: {x: 1.9602568, y: 0.43572998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38831515bdd47a6488ffa92d6d905d7b
+      internalID: 1441135010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_36
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1118
+        width: 214
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf66f1563666d9439f1a90e891f9439
+      internalID: 839509515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_37
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1078
+        width: 214
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffd546bb7e742641b94c76e27215cdd
+      internalID: -1857241095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_38
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1038
+        width: 214
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea2e386bcc24f14d8de5d4f4eda6391
+      internalID: -767371560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_39
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 999
+        width: 73
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1513966d302743e43892db0a2d1a8f04
+      internalID: 486740883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_41
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 999
+        width: 73
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36fd10bd34a07d4ab69f1e7d026e993
+      internalID: 1792862124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_40
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 960
+        width: 73
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9843fd97da9e0e94c8630572603c947b
+      internalID: -1280151582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_42
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 960
+        width: 73
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d20d06858604140a139f9af917cfa2
+      internalID: 301691127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_43
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 751
+        width: 122
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4c8de12eb772c47914ad533bded7fd
+      internalID: 1785450887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_44
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 728
+        width: 101
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c42c062ea67104e98ccc09c0ab4107
+      internalID: -50534631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_45
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 73
+        width: 238
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf7f97a7e48a504b8530186df247166
+      internalID: -193104269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_46
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 147
+        width: 215
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b4eb062cb99e0408f412881a060bff
+      internalID: -1462331360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winter Games_47
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 238
+        width: 135
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410cec1ab71020e468d44bbd9bd2eefa
+      internalID: -780993080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: eaf6754a448eefa42973284aadf42b1a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dream Alpine Ski Title: 1324531338
+      Dream Bobsleigh Title: 1232759188
+      Dream Curling Title: 1302339560
+      Dream Fgure Skate Title: 1817164541
+      Dream Hang Glider Title: -650241485
+      Dream Ice Hockey Title: -340667607
+      Dream Short-track Title: -978074581
+      Dream Ski Cross Title: 817225132
+      Dream Ski Jump Title: -1310606271
+      Dream Snowball Fight Title: 319684324
+      Dream Snowboard Cross Title: 676704838
+      Logo: -2019349005
+      Logo1: -1823023314
+      Olympics_0: -2119315842
+      Olympics_1: -750559092
+      Olympics_2: 541799772
+      Olympics_3: 353489571
+      Winter Games_0: 1706767485
+      Winter Games_1: 907163153
+      Winter Games_10: -1724785587
+      Winter Games_11: -1407393218
+      Winter Games_12: 907163153
+      Winter Games_13: -1105135820
+      Winter Games_14: 1506716516
+      Winter Games_15: 1608825170
+      Winter Games_16: -736943723
+      Winter Games_17: 1408236549
+      Winter Games_18: 1725514563
+      Winter Games_19: -152267740
+      Winter Games_2: -1635349807
+      Winter Games_20: 1552693579
+      Winter Games_21: -1375295855
+      Winter Games_22: 694309790
+      Winter Games_23: 698281050
+      Winter Games_24: -643017905
+      Winter Games_25: -1085043806
+      Winter Games_26: -1853502117
+      Winter Games_27: -1843980445
+      Winter Games_28: -1540541288
+      Winter Games_29: -1707669349
+      Winter Games_3: 757827318
+      Winter Games_30: 1477737273
+      Winter Games_31: 2118369279
+      Winter Games_32: -1647340885
+      Winter Games_33: -57566302
+      Winter Games_34: 637275098
+      Winter Games_35: 1441135010
+      Winter Games_36: 839509515
+      Winter Games_37: -1857241095
+      Winter Games_38: -767371560
+      Winter Games_39: 486740883
+      Winter Games_4: 644471304
+      Winter Games_40: -1280151582
+      Winter Games_41: 1792862124
+      Winter Games_42: 301691127
+      Winter Games_43: 1785450887
+      Winter Games_44: -50534631
+      Winter Games_45: -193104269
+      Winter Games_46: 69407963
+      Winter Games_47: -780993080
+      Winter Games_5: -1548235457
+      Winter Games_6: -993317030
+      Winter Games_7: -997824163
+      Winter Games_8: -1724785587
+      Winter Games_9: 990395628
+      WinterGameBG_0: -781921067
+      WinterGameBG_1: -1155346369
+      WinterGameBG_2: -39963508
+      WinterGameBG_3: -1334164978
+      WinterGameBG_4: 1846017730
+      WinterGameBG_5: -719839429
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

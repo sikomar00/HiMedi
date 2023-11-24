@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 1803bed8-fc04-4f03-ae25-7b5ff6d45ea2
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 85131444-0572-4eab-9117-2eae93cf52bf
+    AppVersion: 1.0
+    UseNameServer: 1
+    FixedRegion: asia
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - FireBulletByRpc
+  - FireRayByRpc
+  - AddChatRpc
+  - SetTriggerRpc
+  - ChangeTurnRpc
+  - ChangeColour
+  - SetPosition
+  - PassRpc
+  - Init
+  - SpawnItemsAndObstacles
+  - Update_Play
+  - Update_Start
+  - Update_Extra_Period
+  - Update_Game_end
+  - Update_Goal
+  - Update_period_end
+  - Update_Period_Start
+  - period_Reset
+  - Reset
+  - Return_CungCungRandomPosition
+  - Return_ItemRandomPosition
+  - Return_RandomPosition
+  - OnPunCollisionEnter
+  - Pun_Change_Game_Status
+  - Pun_Lakitu_Start
+  - Pun_Period_start_UI_start
+  - Pun_UI_Start
+  - Pun_entrie_UI_Start
+  - Pun_entore_UI_Start
+  - Pun_Second_entrie_UI_Start
+  - Pun_entire_blue_UI_Start
+  - Pun_entire_red_UI_Start
+  - Pun_Second_blue_entrie_UI_Start
+  - Pun_Second_red_entrie_UI_Start
+  - Extra_Period_Goal
+  - First_Period_Goal
+  - OnLakito
+  - Pun_Game_Status_Change_Game_End
+  - Pun_Game_Status_Change_Game_Period_End
+  - Pun_Game_Status_Change_Goal
+  - Pun_Game_Time_scale_one
+  - Pun_Game_Time_scale_zero
+  - Second_Period_Goal
+  - Change_State_Play
+  - StopBanner_Manager
+  - Entire_Item_Status_Change
+  - Item_All_Delete
+  - ItemCoin_All_Delelte
+  - Pun_Game_End_Time_scale_one
+  - Pun_How_Winner
+  - Pun_Period_State
+  - Pun_entire_UI_Image
+  - Pun_entire_UI_image
+  - Pun_entire_UI_Image_Off
+  - Pun_extra_Period_State
+  - Pun_Seocond_Period_State
+  - ItemBox_eat
+  - ItemBox_eat_Kupa
+  - entire_Item_Status
+  - DestroyFunc
+  - Pun_transform_one
+  - Pun_transform_two
+  - HitOffRpc
+  - HitRpc
+  - StateSetTriggerRpc
+  - Activate
+  - Activate_three
+  - Activate_two
+  - Activate_four
+  - Green_Shell_Change
+  - Activate_five
+  - Active_five
+  - Active_six
+  - Activate_four_two
+  - Activate_seven
+  - Activate_zero
+  - Pun_item_image_blue_left_image
+  - Pun_item_image_blue_right_image
+  - Pun_item_image_red_left_image
+  - Pun_item_image_red_right_image
+  - ThrowDir
+  - Destroy
+  - Destroy_Item
+  - Pun_Game_End_Time_scale_one_extra
+  - GoalNow
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 0
