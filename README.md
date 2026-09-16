@@ -97,6 +97,5 @@ HiMedi/
 ## 📬 Contact
 
 **김영식**
-- ✉️ dolevi4k@gmail.com
-- 🔗 [LinkedIn](https://www.linkedin.com/in/sikomar/)
+- ✉️ [Email] ys.doing1@gmail.com
 - 🐙 [GitHub](https://github.com/sikomar00)
