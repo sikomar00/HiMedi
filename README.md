@@ -67,7 +67,7 @@ HiMedi/
 
 - 📺 **초등학생 대상 시연 영상**: [YouTube](https://youtu.be/txzosnhA6E4?t=29)
 - 📺 **메인 기능 시연 영상**: [YouTube](https://youtu.be/f85FlpePHr0)
-- 📺 **개인 인터뷰**: [YouTube]([https://youtu.be/YYlBM2Djjnw?si=qzIkrhEcczpYcI7y](https://youtu.be/YYlBM2Djjnw?t=38))
+- 📺 **개인 인터뷰**: [YouTube]((https://youtu.be/YYlBM2Djjnw?t=38))
 - 🖼️ **스토리보드 / 플로우차트**: [Figma](https://www.figma.com/board/mzn7MXOgMpVlZAG65hrFxl)
 - 📑 **발표 PPT**: [Google Drive](https://drive.google.com/file/d/1qzR3IoFGREUmvHEatQ5tpGPkgXZYke2w/view)
 
