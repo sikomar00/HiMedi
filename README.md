@@ -4,6 +4,10 @@
 >
 > 🏆 **2023 XR 디바이스 콘텐츠 메이커톤** (정보통신산업진흥원 주최) **우수상** 수상 — 상금 700만원
 
+| 초등학생 대상 시연 | 메인 기능 시연 |
+|---|---|
+| [![초등학생 대상 시연 영상](https://img.youtube.com/vi/txzosnhA6E4/hqdefault.jpg)](https://youtu.be/txzosnhA6E4?t=29) | [![메인 기능 시연 영상](https://img.youtube.com/vi/f85FlpePHr0/hqdefault.jpg)](https://youtu.be/f85FlpePHr0) |
+
 ---
 
 ## 🎯 프로젝트 개요
@@ -46,8 +50,7 @@ HiMedi/
 ├── Packages/           # Unity 패키지 의존성
 ├── ProjectSettings/    # Unity 프로젝트 설정
 ├── QCAR/               # Vuforia(AR) 설정 및 타겟 데이터
-├── .vscode/
-└── HiMedi.zip          # 빌드 아카이브
+└── .vscode/
 ```
 
 ---
@@ -83,7 +86,7 @@ HiMedi/
 4. **Android Build Support** 모듈 설치 후 빌드 → `.apk` 생성
 5. Vuforia 카메라 권한 활성화 후 실행
 
-> 빌드된 `HiMedi.zip` 아카이브가 리포 루트에 포함되어 있습니다.
+> 안드로이드 서명 키(`*.keystore`)는 저장소에 넣지 않습니다. 빌드하려면 Player Settings → Publishing Settings에서 자신의 키를 지정하세요. Vuforia 라이선스 키도 [Vuforia Developer Portal](https://developer.vuforia.com/)에서 발급받아 `Assets/Resources/VuforiaConfiguration.asset`에 넣어야 합니다.
 
 ---
 

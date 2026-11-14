@@ -70,3 +70,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 서명 키와 빌드 묶음은 저장소에 넣지 않는다
+*.keystore
+*.jks
+/HiMedi.zip
